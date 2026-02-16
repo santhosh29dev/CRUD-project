@@ -32,4 +32,6 @@ public class Movie {
     private List<String> genres;
 
     private List<String> backdrops;
+
+    private String example;
 }
