@@ -1,6 +1,7 @@
 package com.Legionofcoders.CRUD_project_demo;
 
 
+import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
@@ -16,6 +17,8 @@ public class ReviewsService {
 
     @Autowired
     private MongoTemplate mongoTemplate;
+
+    private ObjectId reviewId;
 
     public Reviews createReview(String reviewBody,String imdbId){
 
