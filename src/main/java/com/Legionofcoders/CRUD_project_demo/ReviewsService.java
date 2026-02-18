@@ -18,7 +18,6 @@ public class ReviewsService {
     @Autowired
     private MongoTemplate mongoTemplate;
 
-    private ObjectId reviewId;
 
     public Reviews createReview(String reviewBody,String imdbId){
 

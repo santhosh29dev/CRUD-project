@@ -17,7 +17,6 @@ public class Reviews {
     private ObjectId id;
     private String body;
 
-    private ObjectId reviewId;
     public Reviews(String body) {
         this.body = body;
     }
