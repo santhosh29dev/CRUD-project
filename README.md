@@ -53,10 +53,15 @@ http://localhost:8080
 🔗 API Endpoints
 
 Here are the main endpoints (update if yours are slightly different):
+
 GET /api/items → Get all records
+
 GET /api/items/{id} → Get a record by ID
+
 POST /api/items → Create a new record
+
 PUT /api/items/{id} → Update a record
+
 DELETE /api/items/{id} → Delete a record
 
 🧪 How to Test
